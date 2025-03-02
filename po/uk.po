@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xcsoar\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 17:31+0000\n"
+"POT-Creation-Date: 2025-03-02 15:20+0000\n"
 "PO-Revision-Date: 2022-06-24 07:20+0000\n"
 "Last-Translator: Artem <artem@molotov.work>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/xcsoar/"
@@ -803,7 +803,7 @@ msgid "Not Circling"
 msgstr "Немає спіралі"
 
 #: src/Gauge/BigThermalAssistantWidget.cpp:56
-#: src/Gauge/BigTrafficWidget.cpp:583 src/Dialogs/FileManager.cpp:747
+#: src/Gauge/BigTrafficWidget.cpp:614 src/Dialogs/FileManager.cpp:747
 #: src/Dialogs/Device/DeviceListDialog.cpp:769
 #: src/Dialogs/Device/PortMonitor.cpp:166
 #: src/Dialogs/Device/ManageCAI302Dialog.cpp:139
@@ -843,11 +843,11 @@ msgstr "Немає спіралі"
 msgid "Close"
 msgstr "Закрити"
 
-#: src/Gauge/FlarmTrafficWindow.cpp:209
+#: src/Gauge/FlarmTrafficWindow.cpp:210
 msgid "No Traffic"
 msgstr "Нема трафіку"
 
-#: src/Gauge/BigTrafficWidget.cpp:284 src/Gauge/BigTrafficWidget.cpp:285
+#: src/Gauge/BigTrafficWidget.cpp:315 src/Gauge/BigTrafficWidget.cpp:316
 #: src/Renderer/MapItemListRenderer.cpp:356
 #: src/Dialogs/Device/DeviceListDialog.cpp:421
 #: src/Dialogs/Device/CAI302/UnitsEditor.cpp:18
@@ -858,7 +858,7 @@ msgstr "Нема трафіку"
 msgid "Vario"
 msgstr "Варіо"
 
-#: src/Gauge/BigTrafficWidget.cpp:363 src/Renderer/MapItemListRenderer.cpp:59
+#: src/Gauge/BigTrafficWidget.cpp:394 src/Renderer/MapItemListRenderer.cpp:59
 #: src/Renderer/MapItemListRenderer.cpp:65
 #: src/Renderer/WaypointListRenderer.cpp:134
 #: src/Renderer/FlightStatisticsRenderer.cpp:208
@@ -875,17 +875,17 @@ msgstr "Варіо"
 msgid "Distance"
 msgstr "Відстань"
 
-#: src/Gauge/BigTrafficWidget.cpp:407 src/Gauge/BigTrafficWidget.cpp:409
+#: src/Gauge/BigTrafficWidget.cpp:438 src/Gauge/BigTrafficWidget.cpp:440
 msgid "Rel. Alt."
 msgstr "Відн.Вис."
 
-#: src/Gauge/BigTrafficWidget.cpp:580 src/Dialogs/MapItemListDialog.cpp:144
+#: src/Gauge/BigTrafficWidget.cpp:611 src/Dialogs/MapItemListDialog.cpp:144
 #: src/Dialogs/Airspace/AirspaceList.cpp:130
 #: src/Dialogs/Traffic/TrafficList.cpp:345
 #: src/Dialogs/Waypoint/WaypointList.cpp:211
 #: src/Dialogs/Task/TaskPointDialog.cpp:220
 #: src/Dialogs/Task/AlternatesListDialog.cpp:108
-#: src/Dialogs/Weather/NOAAList.cpp:97 src/InfoBoxes/Content/Task.cpp:50
+#: src/Dialogs/Weather/NOAAList.cpp:97 src/InfoBoxes/Content/Task.cpp:51
 #, no-c-format
 msgid "Details"
 msgstr "Подробиці"
@@ -1788,7 +1788,7 @@ msgid "Warning"
 msgstr "Застереження"
 
 #. TODO feature: Show the user what the batt status is.
-#: src/BatteryTimer.cpp:49
+#: src/BatteryTimer.cpp:53
 msgid "Battery low"
 msgstr "Заряд батареї низький"
 
@@ -2155,8 +2155,8 @@ msgstr "Увімкніть, якщо ви використовуєте K6Bt, щ�
 #: src/Dialogs/Plane/PlaneListDialog.cpp:133
 #: src/Dialogs/Waypoint/WaypointCommandsWidget.cpp:270
 #: src/Dialogs/Waypoint/Manager.cpp:101 src/InfoBoxes/Content/MacCready.cpp:30
-#: src/InfoBoxes/Content/Weather.cpp:87 src/InfoBoxes/Content/Radio.cpp:45
-#: src/InfoBoxes/Content/Radio.cpp:50
+#: src/InfoBoxes/Content/Weather.cpp:87 src/InfoBoxes/Content/Radio.cpp:70
+#: src/InfoBoxes/Content/Radio.cpp:75
 #, no-c-format
 msgid "Edit"
 msgstr "Редагувати"
@@ -6444,12 +6444,12 @@ msgstr ""
 "Допуск безпеки для оптимізації завдання ААТ.  Оптимізація полягає у "
 "виконанні завдання за мінімальний час плюс час допуску."
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:73
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:75
 #, fuzzy, no-c-format
 msgid "Disable contest calculations"
 msgstr "Вимкнути розрахунок OLC"
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:75
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:77
 #, no-c-format
 msgid ""
 "Conforms to FAI triangle rules. Three turns and common start and finish. No "
@@ -6460,7 +6460,7 @@ msgstr ""
 "відрізків не менший за 28% загального маршруту, за винятком завдань понад "
 "500 км: для них жоден з відрізків не менший за 25% і не більший за 45%."
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:78
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:80
 #, no-c-format
 msgid ""
 "Up to seven points including start and finish, finish height must not be "
@@ -6469,12 +6469,12 @@ msgstr ""
 "До семи точок, включно із стартом та фінішем. Висота фінішу не повинна бути "
 "нижча за висоту старту більше, ніж на 1000 метрів."
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:81
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:83
 #, no-c-format
 msgid "The most recent contest with Sprint task rules."
 msgstr ""
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:83
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:85
 #, no-c-format
 msgid ""
 "A combination of Classic and FAI rules. 30% of the FAI score are added to "
@@ -6483,7 +6483,7 @@ msgstr ""
 "Комбінація класичних правил і правил ФАІ. 30% очок за правилами ФАІ "
 "додаються до класичних."
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:88
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:90
 #, no-c-format
 msgid ""
 "PG online contest with different track values: Free flight - 1 km = 1.0 "
@@ -6492,7 +6492,7 @@ msgstr ""
 "Парапланерні онлайн-змагання з різною ціною треків: вільний політ - 1 км = "
 "1.0 очко; трикутник - 1 км =1.2 очка; трикутник ФАІ - 1 км =1.4 очка."
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:91
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:93
 #, no-c-format
 msgid ""
 "European PG online contest of the DHV organization. Pretty much the same as "
@@ -6503,7 +6503,7 @@ msgstr ""
 "співпадає з правилами XContest, але з іншою ціною за пройдену відстань: 1 км "
 "= 1.5 очка, 1.75 очка і 2.0 очка за трикутник ФАІ відповідно."
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:94
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:96
 #, no-c-format
 msgid ""
 "Austrian online glider contest. Tracks around max. six waypoints are scored. "
@@ -6513,12 +6513,12 @@ msgstr ""
 "Австрійські планерні онлайн-змагання. Рахують очки за трек з максимум 6 ППМ. "
 "За обліт 1 км = 1.0 очко і додатково за зиг-заги 1 км = 0.5 очка."
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:97
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:99
 #, no-c-format
 msgid "The FFVV NetCoupe \"libre\" competiton."
 msgstr ""
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:99
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:101
 #, no-c-format
 msgid ""
 "WeGlide combines multiple scoring systems in the WeGlide Free contest. The "
@@ -6528,7 +6528,7 @@ msgid ""
 "route."
 msgstr ""
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:103
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:105
 #, no-c-format
 msgid ""
 "A start point, one turn point and a finish point are chosen from the flight "
@@ -6536,27 +6536,27 @@ msgid ""
 "maximized"
 msgstr ""
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:106
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:108
 #, no-c-format
 msgid ""
 "LVZC Charron.online, 5 legs under 200km 6 legs above. Minimum leg distance "
 "is 20km, 5 points per km."
 msgstr ""
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:109
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:111
 #, fuzzy
 msgid "Contest"
 msgstr "Конкурс"
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:110
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:112
 msgid "Select the rules used for calculating optimal points for a contest."
 msgstr ""
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:113
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:115
 msgid "Predict Contest"
 msgstr ""
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:114
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:116
 msgid ""
 "If enabled, then the next task point is included in the score calculation, "
 "assuming that you will reach it."
@@ -6564,22 +6564,34 @@ msgstr ""
 "Якщо застосовано, наступний ППМ буде включено для підрахунку очок, виходячи "
 "з того, що ви його досягнете."
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:121
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:123
 msgid "FAI triangle areas"
 msgstr "Зони трикутника ФАІ"
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:122
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:124
 msgid "Show FAI triangle areas on the map."
 msgstr "Показує зони трикутника ФАІ на мапі."
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:126
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:128
 msgid "FAI triangle threshold"
 msgstr "Порог трикутника ФАІ"
 
-#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:127
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:129
 msgid "Specifies which threshold is used for \"large\" FAI triangles."
 msgstr ""
 "Визначає, які пороги будуть застосовані до \"великих\" трикутників ФАІ."
+
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:137
+#, c-format
+msgid "95% dist. rule helpers"
+msgstr ""
+
+#: src/Dialogs/Settings/Panels/ScoringConfigPanel.cpp:138
+msgid ""
+"Show helpers for Argentinean Federation \"95% distance\" rule.The AAT "
+"Distance Around Target infobox will show projected distance vs max. and "
+"change colors as you approach 95%."
+msgstr ""
 
 #: src/Dialogs/Settings/Panels/TerrainDisplayConfigPanel.cpp:180
 msgid "Terrain display"
@@ -8112,7 +8124,7 @@ msgstr ""
 msgid "Next distance"
 msgstr "Наступна дистанція"
 
-#: src/InfoBoxes/Content/Factory.cpp:208 src/InfoBoxes/Content/Task.cpp:165
+#: src/InfoBoxes/Content/Factory.cpp:208 src/InfoBoxes/Content/Task.cpp:166
 #, no-c-format
 msgid "WP Dist"
 msgstr "WP дистанція"
@@ -9816,7 +9828,7 @@ msgid ""
 msgstr "Висота прибуття на фінішний ППМ відносно безпечної висоти прибуття."
 
 #: src/InfoBoxes/Content/Factory.cpp:1009
-#: src/InfoBoxes/Content/Factory.cpp:1010 src/InfoBoxes/Content/Task.cpp:900
+#: src/InfoBoxes/Content/Factory.cpp:1010 src/InfoBoxes/Content/Task.cpp:929
 #, no-c-format
 msgid "Next arrow"
 msgstr "Наступна стрілка"
@@ -10143,23 +10155,23 @@ msgstr "БЛОК"
 msgid "DOLPHIN"
 msgstr "ДЕЛЬФІН"
 
-#: src/InfoBoxes/Content/Task.cpp:115
+#: src/InfoBoxes/Content/Task.cpp:116
 msgid "Next"
 msgstr "Наступний"
 
-#: src/InfoBoxes/Content/Task.cpp:688
+#: src/InfoBoxes/Content/Task.cpp:717
 msgid "Time Below"
 msgstr "Час нижче"
 
-#: src/InfoBoxes/Content/Task.cpp:816 src/InfoBoxes/Content/Task.cpp:861
+#: src/InfoBoxes/Content/Task.cpp:845 src/InfoBoxes/Content/Task.cpp:890
 msgid "Closed"
 msgstr "Закрито"
 
-#: src/InfoBoxes/Content/Task.cpp:825 src/InfoBoxes/Content/Task.cpp:870
+#: src/InfoBoxes/Content/Task.cpp:854 src/InfoBoxes/Content/Task.cpp:899
 msgid "Open"
 msgstr "Відкрито"
 
-#: src/InfoBoxes/Content/Task.cpp:830 src/InfoBoxes/Content/Task.cpp:875
+#: src/InfoBoxes/Content/Task.cpp:859 src/InfoBoxes/Content/Task.cpp:904
 msgid "Waiting"
 msgstr "Очікування"
 
